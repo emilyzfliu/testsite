@@ -7,19 +7,22 @@
         <title>test site</title>
         <meta name="description" content="does this work?">
         <link rel="stylesheet" href="main.css">
-        <style>
-            body {background-color: whitesmoke;font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;}
-            h1   {color: navy;font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;}
-            p    {color: darkblue; font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;}
-        </style>
+        <script type='text/javascript' src='script.js'></script>
     </head>
     <body>
         
-        <h1>title</h1>
+        <h1>Practice site for testing various web design features</h1>
         
         <p>
-            Practice uploading a custom designed webpage onto github pages
+            Practice uploading a custom designed webpage onto github pages <br> make <span class = "change">DYNAMIC</span> elements?
         </p>
+        
+        
+        <p> Input text! <input type="text" id="name" name="name"/> </p>
+        
+        <a href="javascript:
+                 var input_text = document.getElementByName('name').value;
+                 ">Register</a>
         
     </body>
 </html>
